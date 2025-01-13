@@ -1,1 +1,1 @@
-![Image alt](https://github.com/grokes/php/blob/master/Images/work.png)
+![Image alt](https://raw.githubusercontent.com/grokes/php/refs/heads/main/Images/work.png)
