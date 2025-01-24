@@ -5,15 +5,18 @@
     <meta charset="UTF-8">
     <title>Combats</title>
     <link rel="icon" href="Images/icon.svg">
+    <link rel="stylesheet" href="css/style.css" />
     <?php
-    include("Components/index_head.php");
+    include_once("Components/index_head.php");
     ?>
 </head>
 
 <body>
-    <?php
-    include("Components/index_body.php");
-    ?>
+    <button id="btn">button</button>
+    <dialog id="loginForm"><?php
+    include_once("Components/index_body.php");
+    ?></dialog>
+    <script src="js/modal.js"></script>
 </body>
 
 </html>

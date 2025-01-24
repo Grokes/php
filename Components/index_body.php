@@ -47,6 +47,7 @@
 </svg>
 <!-- ICONS -->
 
+<div class="button" id="close_btn">X</div>
 <div class="wrapper">
     <div class="header">
         <h3 class="sign-in">Sign in</h3>
