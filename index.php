@@ -5,15 +5,15 @@
     <meta charset="UTF-8">
     <title>Combats</title>
     <link rel="icon" href="Images/icon.svg">
+    <?php
+    include("Components/index_head.php");
+    ?>
 </head>
 
 <body>
-    <h1>Hello user!!!</h1>
-    <?php phpinfo();
-    $a = 1;
-    $b = "fdsf"
-
-        ?>
+    <?php
+    include("Components/index_body.php");
+    ?>
 </body>
 
 </html>

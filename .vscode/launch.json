@@ -14,7 +14,7 @@
                 "-t",
                 ".",
                 "-c",
-                "C:/Users/Дмитрий/vsc_proj/TOP_Academy/BV212_Combats/php.ini"
+                "."
             ],
             "port": 9003,
             "serverReadyAction": {
