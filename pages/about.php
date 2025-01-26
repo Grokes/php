@@ -2,23 +2,15 @@
 <html lang="En-En">
 
 <head>
-    <meta charset="UTF-8">
     <title>about</title>
-    <link rel="icon" href="Images/icon.svg">
-    <link rel="stylesheet" href="css/style.css" />
     <?php
-    include_once("Components/index_head.php");
-    ?>
-    <link rel="stylesheet" href="css/header.css" />
-    
+    include_once("../partials/index_head.php"); ?>
 </head>
 
 <body>
-    <dialog id="loginForm"><?php
-    include_once("Components/index_body.php");
-    ?></dialog>
     <header>
-        <?php include_once("header.php"); ?>
+        <?php
+        include_once("$ROOT/partials/header.php"); ?>
     </header>
     <section id="about" style="color: #d3d3d3;">
         <h1>О нас</h1>
@@ -56,7 +48,7 @@
             Вместе мы создадим что-то особенное.
         </p>
     </section>
-    <script src="js/modal.js"></script>
+    <?php include_once("$ROOT/Components/loginForm_body.php") ?>
 </body>
 
 </html>
