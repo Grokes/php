@@ -55,7 +55,7 @@
             <div class="button">Register</div>
         </div>
         <div class="clear"></div>
-        <form action="#">
+        <form method="post" action="../pages/auth.php" >
             <div>
                 <label class="user" for="text">
                     <svg viewBox="0 0 32 32">
@@ -64,7 +64,7 @@
                         </g>
                     </svg>
                 </label>
-                <input class="user-input" type="text" name="name" id="name" placeholder="My name is" />
+                <input class="user-input" type="text" name="username" id="name" placeholder="My name is" />
             </div>
             <div>
                 <label class="lock" for="password">
@@ -74,7 +74,7 @@
                         </g>
                     </svg>
                 </label>
-                <input type="password" name="name" id="name" placeholder="Password" />
+                <input type="password" name="password" id="password" placeholder="Password" />
             </div>
             <div>
                 <input type="submit" value="Sign in" />
