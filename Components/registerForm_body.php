@@ -1,5 +1,5 @@
 <?php ?>
-<dialog id="loginForm">
+<dialog id="registerForm">
     <!-- ICONS -->
     <svg id="svg-source" height="0" version="1.1" xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink" style="position: absolute">
@@ -48,11 +48,11 @@
     </svg>
     <!-- ICONS -->
 
-    <div class="button" id="close_btnLog">X</div>
+    <div class="button" id="close_btnReg">X</div>
     <div class="wrapper">
         <div class="header">
             <h3 class="sign-in">Sign in</h3>
-            <div class="button" id="regButton">Register</div>
+            <div class="button" id="logButton">Login</div>
         </div>
         <div class="clear"></div>
         <form method="post" action="../pages/auth.php">
@@ -65,6 +65,16 @@
                     </svg>
                 </label>
                 <input class="user-input" type="text" name="username" id="name" placeholder="My name is" />
+            </div>
+            <div>
+                <label class="lock" for="password">
+                    <svg viewBox="0 0 32 32">
+                        <g filter="">
+                            <use xlink:href="#lock-locker"></use>
+                        </g>
+                    </svg>
+                </label>
+                <input type="password" name="password" id="password" placeholder="Password" />
             </div>
             <div>
                 <label class="lock" for="password">
@@ -92,5 +102,3 @@
         </form>
     </div>
 </dialog>
-<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script src="/js/modal.js"></script>
