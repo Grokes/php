@@ -27,6 +27,7 @@ if ($username == "root" && $password == "root") {
         echo "Auth failed";
     }
     ?>
+    <?php include_once("$ROOT/Components/registerForm_body.php"); ?>
     <?php include_once("$ROOT/Components/loginForm_body.php"); ?>
 </body>
 

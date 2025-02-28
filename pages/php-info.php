@@ -11,6 +11,7 @@
         <?php include_once("$ROOT/partials/header.php"); ?>
     </header>
     <?php phpinfo() ?>
+    <?php include_once("$ROOT/Components/registerForm_body.php"); ?>
     <?php include_once("$ROOT/Components/loginForm_body.php"); ?>
 </body>
 
