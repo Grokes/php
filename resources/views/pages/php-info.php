@@ -8,11 +8,11 @@
 
 <body>
     <header>
-        <?php include_once("$ROOT/partials/header.php"); ?>
+    <?php include_once("$ROOT/resources/views/partials/header.php"); ?>
     </header>
     <?php phpinfo() ?>
-    <?php include_once("$ROOT/Components/registerForm_body.php"); ?>
-    <?php include_once("$ROOT/Components/loginForm_body.php"); ?>
+    <?php include_once("$ROOT/LoginForm/registerForm_body.php"); ?>
+    <?php include_once("$ROOT/LoginForm/loginForm_body.php") ?>
 </body>
 
 </html>

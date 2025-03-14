@@ -93,4 +93,4 @@
     </div>
 </dialog>
 <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script src="/js/modal.js"></script>
+<script src="../public/js/modal.js"></script>

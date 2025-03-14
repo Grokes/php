@@ -18,7 +18,7 @@ if ($username == "root" && $password == "root") {
 
 <body>
     <header>
-        <?php include_once("$ROOT/partials/header.php"); ?>
+    <?php include_once("../partials/index_head.php"); ?>
     </header>
     <?php
     if ($isAuthSuccess) {
@@ -27,8 +27,8 @@ if ($username == "root" && $password == "root") {
         echo "Auth failed";
     }
     ?>
-    <?php include_once("$ROOT/Components/registerForm_body.php"); ?>
-    <?php include_once("$ROOT/Components/loginForm_body.php"); ?>
+    <?php include_once("$ROOT/LoginForm/registerForm_body.php"); ?>
+    <?php include_once("$ROOT/LoginForm/loginForm_body.php") ?>
 </body>
 
 </html>

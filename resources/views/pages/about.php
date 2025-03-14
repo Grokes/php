@@ -10,7 +10,7 @@
 <body>
     <header>
         <?php
-        include_once("$ROOT/partials/header.php"); ?>
+        include_once("$ROOT/resources/views/partials/header.php"); ?>
     </header>
     <section id="about" style="color: #d3d3d3;">
         <h1>О нас</h1>
@@ -48,8 +48,8 @@
             Вместе мы создадим что-то особенное.
         </p>
     </section>
-    <?php include_once("$ROOT/Components/registerForm_body.php"); ?>
-    <?php include_once("$ROOT/Components/loginForm_body.php") ?>
+    <?php include_once("$ROOT/LoginForm/registerForm_body.php"); ?>
+    <?php include_once("$ROOT/LoginForm/loginForm_body.php") ?>
 </body>
 
 </html>

@@ -3,16 +3,16 @@
 
 <head>
     <title>Combats</title>
-    <?php include_once("partials/index_head.php"); ?>
+    <?php include_once("resources/views/partials/index_head.php"); ?>
 </head>
 
 <body>
     <header>
-        <?php include_once("partials/header.php"); ?>
+        <?php include_once("resources/views/partials/header.php"); ?>
     </header>
 
-    <?php include_once("Components/registerForm_body.php"); ?>
-    <?php include_once("Components/loginForm_body.php"); ?>
+    <?php include_once("LoginForm/registerForm_body.php"); ?>
+    <?php include_once("LoginForm/loginForm_body.php"); ?>
 </body>
 
 </html>
