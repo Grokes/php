@@ -1,18 +1,10 @@
-<?php ?>
-<html lang="En-En">
+<?php
+require_once "config/config.php";
 
-<head>
-    <title>Combats</title>
-    <?php include_once("resources/views/partials/index_head.php"); ?>
-</head>
+$request = $_SERVER['REQUEST_URI'];
+$request = trim($request, '/');
 
-<body>
-    <header>
-        <?php include_once("resources/views/partials/header.php"); ?>
-    </header>
+if ($request == "") $request = "Main.php";
 
-    <?php include_once("LoginForm/registerForm_body.php"); ?>
-    <?php include_once("LoginForm/loginForm_body.php"); ?>
-</body>
-
-</html>
+require_once ROOT . "/src/Views/Pages/$request";
+?>

@@ -55,7 +55,7 @@
             <div class="button" id="regButton">Register</div>
         </div>
         <div class="clear"></div>
-        <form method="post" action="../pages/auth.php">
+        <form method="post" action="/API/login.php">
             <div>
                 <label class="user" for="text">
                     <svg viewBox="0 0 32 32">
