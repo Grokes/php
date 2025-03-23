@@ -1,5 +1,14 @@
 <?php
-require_once ROOT . "/src/Models/Main.php";
-$RenderClass = new Main();
-require_once ROOT . "/src/Views/Partials/Layout.php";
+require_once ROOT . "/src/Abstracts/BasePage.php";
+class Main extends BasePage
+{
+    public function RenderContent()
+    {
+    }
+}
+?>
+
+<?php
+$Page = new Main();
+$Page->RenderPage();
 ?>

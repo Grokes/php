@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php
-    $RenderClass->RenderHead();
+    $this->RenderHead();
     ?>
 </head>
 
 <body>
     <?php
-    $RenderClass->RenderBody();
+    $this->RenderBody();
     ?>
 </body>
 

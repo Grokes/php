@@ -1,8 +1,10 @@
 <?php
-require_once ROOT . "/src/Models/Interfaces/IPage.php";
+require_once ROOT . "/src/Interfaces/IPage.php";
 
 abstract class BasePage implements IPage
 {
+
+    // TODO Пересмотреть праваа доступа к функциям
     public function RenderHead()
     {
         echo <<<HTML
@@ -30,5 +32,11 @@ abstract class BasePage implements IPage
         require_once ROOT . "/src/Views/partials/header.php";
     }
     abstract public function RenderContent();
+
+    public function RenderPage()
+    {
+
+        require_once ROOT . "/src/Views/partials/Layout.php";
+    }
 }
 ?>
